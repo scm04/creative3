@@ -1,0 +1,9 @@
+<p>Fun Facts about Orion:</p>
+<ul>
+<li>It is visible throughout most of the world due to its location near the Earth's equator</li>
+<li>Due to its visibility, it is one of the most recognizable constellations</li>
+<li>It is named for the hunter Orion from Greek mythology</li>
+<li>The most visible stars in Orion are the three stars in his belt</li>
+<li>The earliest depiction of Orion was found on a mammoth ivory carving from a prehistoric culture</li>
+<li>Due to its wide recognition, Orion has many myths associated with it</li>
+</ul>

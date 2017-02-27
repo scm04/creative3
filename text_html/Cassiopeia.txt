@@ -1,0 +1,11 @@
+<p>Fun Facts about Cassiopeia:</p>
+<ul>
+<li>It is one of the constellations in the northern sky</li>
+<li>It was first named as a constellation by 2nd-century astronomer Ptolemy</li>
+<li>It is named after the vain queen Cassiopeia, from Greek mythology</li>
+<li>It is easily recognizable due to its distinctive "W" shape</li>
+<li>In Greek mythology, Cassiopeia was the wife of King Cepheus of Aethiopia and the mother of princess Andromeda (both of whom also have constellations named after them)</li>
+<li>According to the myths, Cassiopeia was placed in the sky as punishment for angering Poseidon</li>
+<li>It is the 25th-largest constellation</li>
+<li>It is circumpolar (always visible) to viewers in the British Isles, Canada, and the northern United States</li>
+</ul>

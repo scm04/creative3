@@ -1,0 +1,9 @@
+<p>Fun Facts about Gemini:</p>
+<ul>
+<li>It is one of the zodiac constellations</li>
+<li>It was first named as a constellation by 2nd-century astronomer Ptolemy</li>
+<li>Its name is Latin for "twins"</li>
+<li>It is associated with the twins Castor and Pollux in Greek mythology</li>
+<li>Gemini is the zodiac sign from May 21st to June 21st each year</li>
+<li>The sun's path actually crosses Gemini's location from June 20th to July 20th each year, hence why it is a zodiac constellation</li>
+</ul>

@@ -1,0 +1,9 @@
+<p>Fun Facts about Draco:</p>
+<ul>
+<li>It is located between Ursa Major and Ursa Minor in the northern sky</li>
+<li>It was first named as a constellation by 2nd-century astronomer Ptolemy</li>
+<li>The north pole of the sun's path is in Draco</li>
+<li>It is circumpolar, meaning it is "never setting"</li>
+<li>It can be seen all year from northern latitudes</li>
+<li>In Greek and Roman mythology, Draco was a dragon killed by the goddess Minerva and tossed into the sky upon his defeat</li>
+</ul>

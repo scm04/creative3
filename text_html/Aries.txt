@@ -1,0 +1,11 @@
+<p>Fun Facts about Aries:</p>
+<ul>
+<li>It is one of the zodiac constellations</li>
+<li>It was first named as a constellation by 2nd-century astronomer Ptolemy</li>
+<li>It is located between Pisces to the west and Taurus to the east</li>
+<li>Its name is Latin for "ram"</li>
+<li>It is the 39th-largest constellation out of the 88 modern constellations</li>
+<li>It has represented a ram since late Babylonian times</li>
+<li>Over time, it has come to specifically represent the ram whose fleece became the Golden Fleece in Greek mythology</li>
+<li>In ancient Egyptian astronomy, Aries was associated with the god Amon-Ra, the god of fertility and creativity</li>
+</ul>

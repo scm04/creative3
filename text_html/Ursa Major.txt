@@ -1,0 +1,11 @@
+<p>Fun Facts about Ursa Major:</p>
+<ul>
+<li>It is one of the constellations in the northern sky</li>
+<li>It is more commonly known as the Big Dipper in North America</li>
+<li>Ursa Major is Latin meaning "the greater (or larger) she-bear"</li>
+<li>It was first named as a constellation by 2nd-century astronomer Ptolemy</li>
+<li>Its name is a reference to Ursa Minor</li>
+<li>The two Ursa constellations were named because of their frequent association in mythology</li>
+<li>The two stars on the outer edge of the Big Dipper's bowl can be used to find Polaris</li>
+<li>Ursa Major is the third-largest constellation in the sky</li>
+</ul>

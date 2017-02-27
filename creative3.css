@@ -1,0 +1,35 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    /*font-family: 'Share', cursive;*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content{
+    font-size: 18px;
+}
+
+body{
+  background: url("background/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Share', cursive;
+  color: white;
+  padding: 10px;
+}
