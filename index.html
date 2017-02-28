@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
-  <script src=""></script> <!-- Put the name of our angular file in this script -->
+  <script src="app.js" type="text/javascript"></script> <!-- Put the name of our angular file in this script -->
   <link rel="stylesheet" type="text/css" href="creative3.css">
   <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">
   <meta charset="utf-8">
   <title>Creative Project 3</title>
 </head>
 <body>
+<div ng-app="ConstellationFacts">
+ <div ng-controller="MainCtrl">
   <h1>Constellation Fun Facts</h1>
 
   <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><strong>Choose a Constellation</strong>
     <span class="caret"></span></button>
     <ul class="dropdown-content">
-      <li id="Aries"><a href="#"><em>Aries</em></a></li>
-      <li id="Cassiopeia"><a href="#"><em>Cassiopeia</em></a></li>
-      <li id="Cepheus"><a href="#"><em>Cepheus</em></a></li>
-      <li id="Draco"><a href="#"><em>Draco</em></a></li>
-      <li id="Gemini"><a href="#"><em>Gemini</em></a></li>
-      <li id="Orion"><a href="#"><em>Orion</em></a></li>
-      <li id="Ursa-Major"><a href="#"><em>Ursa Major</em></a></li>
-      <li id="Ursa-Minor"><a href="#"><em>Ursa Minor</em></a></li>
+    <div ng-repeat="constellation in constellations track by $index">
+      <li><a href="" ng-click="setSelected($index)"><em>{{constellation.name}}</em></a></li>
+    </div>
     </ul>
   </div>
 
-  <div class="content">
+  <div class="content" ng-show="selectedConstellationIndex != -1" ng-include="constellationFacts.url">
     <!-- This is where the text file contents should go -->
   </div>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
