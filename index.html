@@ -11,9 +11,7 @@
   <meta charset="utf-8">
   <title>Creative Project 3</title>
 </head>
-<body>
-<div ng-app="ConstellationFacts">
- <div ng-controller="MainCtrl">
+<body class="container" ng-app="ConstellationFacts" ng-controller="MainCtrl" back-img="{{backgroundImg}}">
   <h1>Constellation Fun Facts</h1>
 
   <div class="dropdown">
@@ -21,7 +19,7 @@
     <span class="caret"></span></button>
     <ul class="dropdown-content">
     <div ng-repeat="constellation in constellations track by $index">
-      <li><a href="" ng-click="setSelected($index)"><em>{{constellation.name}}</em></a></li>
+      <li><a href="" ng-click="setSelected($index);"><em>{{constellation.name}}</em></a></li>
     </div>
     </ul>
   </div>
@@ -29,9 +27,5 @@
   <div class="content" ng-show="selectedConstellationIndex != -1" ng-include="constellationFacts.url">
     <!-- This is where the text file contents should go -->
   </div>
-  </div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -23,8 +23,9 @@
     font-size: 18px;
 }
 
-body{
+.container{
   background: url("background/background.jpg");
+  background-color: navy;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
