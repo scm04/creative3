@@ -11,11 +11,11 @@
   <meta charset="utf-8">
   <title>Creative Project 3</title>
 </head>
-<body class="container" ng-app="ConstellationFacts" ng-controller="MainCtrl" back-img="{{backgroundImg}}">
+<body class="container" ng-app="ConstellationFacts" ng-controller="MainCtrl" back-img="{{backgroundImg}}" ng-style="backgroundStyle">
   <h1>Constellation Fun Facts</h1>
 
   <div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><strong>Choose a Constellation</strong>
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><strong>{{selectedConstellation}}</strong>
     <span class="caret"></span></button>
     <ul class="dropdown-content">
     <div ng-repeat="constellation in constellations track by $index">
